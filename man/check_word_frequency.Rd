@@ -2,12 +2,13 @@
 % Please edit documentation in R/check_word_frequency.R
 \name{check_word_frequency}
 \alias{check_word_frequency}
-\title{get count for a specific word of your word_amount_ngrams output}
+\title{use this function to get the count of a word of your word_amount_ngrams
+output in Integer}
 \usage{
 check_word_frequency(summary, word)
 }
 \arguments{
-\item{summary}{A list given by word_amount_ngrams function}
+\item{summary}{your word_amount_ngrams output}
 
 \item{word}{the specific word that you want the frequency of}
 }
@@ -15,7 +16,8 @@ check_word_frequency(summary, word)
 A integer
 }
 \description{
-get count for a specific word of your word_amount_ngrams output
+use this function to get the count of a word of your word_amount_ngrams
+output in Integer
 }
 \examples{
 text <- "this day is a great day to talk about the next day"

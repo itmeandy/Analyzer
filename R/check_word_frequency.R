@@ -1,6 +1,7 @@
-#' get count for a specific word of your word_amount_ngrams output
+#' use this function to get the count of a word of your word_amount_ngrams
+#' output in Integer
 #'
-#' @param summary A list given by word_amount_ngrams function
+#' @param summary your word_amount_ngrams output
 #' @param word the specific word that you want the frequency of
 #'
 #' @return A integer

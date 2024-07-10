@@ -1,4 +1,6 @@
-#' count words and give ngrams
+#' create a table of all used words and their count, aswell as give a vector
+#' of all the ngrams in the String where you define n (works best with clean
+#' text)
 #'
 #' @param text string to work with
 #' @param n the int for ngrams, giving the number of words

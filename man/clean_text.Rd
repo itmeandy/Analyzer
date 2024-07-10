@@ -2,7 +2,8 @@
 % Please edit documentation in R/clean_text.R
 \name{clean_text}
 \alias{clean_text}
-\title{clean your text}
+\title{use this function to clean your String, by removing stopwords, changing it
+to all lower case or remove its punctuation}
 \usage{
 clean_text(
   text,
@@ -24,7 +25,8 @@ clean_text(
 A string of your cleaned text
 }
 \description{
-clean your text
+use this function to clean your String, by removing stopwords, changing it
+to all lower case or remove its punctuation
 }
 \examples{
 text <- "Hey, my name is andy. What is your name?"

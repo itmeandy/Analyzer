@@ -2,7 +2,9 @@
 % Please edit documentation in R/word_amount_ngrams.R
 \name{word_amount_ngrams}
 \alias{word_amount_ngrams}
-\title{count words and give ngrams}
+\title{create a table of all used words and their count, aswell as give a vector
+of all the ngrams in the String where you define n (works best with clean
+text)}
 \usage{
 word_amount_ngrams(text, n = 1)
 }
@@ -15,7 +17,9 @@ word_amount_ngrams(text, n = 1)
 A list with a table of word frequencies and a vector of the ngrams
 }
 \description{
-count words and give ngrams
+create a table of all used words and their count, aswell as give a vector
+of all the ngrams in the String where you define n (works best with clean
+text)
 }
 \examples{
 text <- "hey my name is andy what is your name"

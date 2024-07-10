@@ -1,4 +1,5 @@
-#' clean your text
+#' use this function to clean your String, by removing stopwords, changing it
+#' to all lower case or remove its punctuation
 #'
 #' @param text your String to clean
 #' @param remove_stopwords a bool to set if you want to remove stopwords
