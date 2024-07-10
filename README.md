@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Analyzer is to …
+The goal of Analyzer is to help with text analyzing
 
 ## Installation
 
