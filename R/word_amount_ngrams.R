@@ -1,3 +1,14 @@
+#' count words and give ngrams
+#'
+#' @param text string or vector of strings
+#' @param n the int for ngrams, giving the number of words
+#'
+#' @return A list with a table of word frequencies and a vector of the ngrams
+#' @export
+#'
+#' @examples
+#' text <- "hey my name is andy what is your name"
+#' word_amount_ngrams(text, n = 1)
 word_amount_ngrams <- function(text, n = 1) {
   words <- unlist(strsplit(text, "\\s+"))
 

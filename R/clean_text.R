@@ -9,6 +9,8 @@
 #' @export
 #'
 #' @examples
+#' text <- "Hey, my name is andy. What is your name?"
+#' clean_text(text, remove_stopwords = FALSE, to_lower = TRUE, remove_punctuation = TRUE)
 clean_text <- function(text, remove_stopwords = TRUE, to_lower = TRUE, remove_punctuation = TRUE) {
   stopwords <- c("the", "is", "in", "and", "to", "a")
   if (to_lower) {
