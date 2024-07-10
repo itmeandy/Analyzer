@@ -1,12 +1,11 @@
 Package: Analyzer
-Title: What the Package Does (One Line, Title Case)
+Title: Clean And Analyze Text(Strings)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Andreas", "Prock", , "Andreas_Prock@hotmail.com", role = c("aut", "cre"))
+Description: clean your text(string) by making it to lower, remove punctuation or remove certain 	stop words, then you can choose to get information on the text as in the count of each 
+	word used as well as all ngrams of a given n in a list and lastly a function to get the 	count of certain words in your information summary list to access it easier.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2

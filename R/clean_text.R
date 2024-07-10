@@ -1,3 +1,14 @@
+#' clean your text
+#'
+#' @param text your String or vector of strings to clean
+#' @param remove_stopwords a bool to set if you want to remove stopwords
+#' @param to_lower a bool to set if you want to make to text to all lower case
+#' @param remove_punctuation a bool to set if you want to remove punctuation
+#'
+#' @return A string of your cleaned text
+#' @export
+#'
+#' @examples
 clean_text <- function(text, remove_stopwords = TRUE, to_lower = TRUE, remove_punctuation = TRUE) {
   stopwords <- c("the", "is", "in", "and", "to", "a")
   if (to_lower) {
