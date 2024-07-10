@@ -1,6 +1,6 @@
 #' count words and give ngrams
 #'
-#' @param text string or vector of strings
+#' @param text string to work with
 #' @param n the int for ngrams, giving the number of words
 #'
 #' @return A list with a table of word frequencies and a vector of the ngrams

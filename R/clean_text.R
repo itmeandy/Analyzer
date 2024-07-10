@@ -1,6 +1,6 @@
 #' clean your text
 #'
-#' @param text your String or vector of strings to clean
+#' @param text your String to clean
 #' @param remove_stopwords a bool to set if you want to remove stopwords
 #' @param to_lower a bool to set if you want to make to text to all lower case
 #' @param remove_punctuation a bool to set if you want to remove punctuation
