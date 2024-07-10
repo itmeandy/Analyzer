@@ -14,6 +14,10 @@ test_that("word_amount_ngrams works with n = 2", {
   #dass es an den richtigen stellen ist
   expect_true(identical("about people", summary$ngrams[3]))
   expect_true(identical("about people", summary$ngrams[6]))
+  expect_equal(3, get_word_count(summary, "people"))
+  expect_equal(2, get_word_count(summary, "about"))
+  expect_equal(1, get_word_count(summary, "talk"))
+  expect_equal(1, get_word_count(summary, "talking"))
 })
 
 test_that("word_amount_ngrams works with n = 3", {
