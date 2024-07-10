@@ -1,17 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # Analyzer
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Analyzer is to …
+The goal of Analyzer is to ...
 
 ## Installation
 
-You can install the development version of Analyzer from
-[GitHub](https://github.com/itmeandy/Analyzer) with:
+You can install the development version of Analyzer from [GitHub](https://github.com/itmeandy/Analyzer) with:
 
 ``` r
 # install.packages("devtools")
@@ -22,30 +33,15 @@ devtools::install_github("itmeandy/Analyzer")
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example}
 library(Analyzer)
 ## basic example code
 text <- "Hello there, this shall be Andys simple example!"
 cleaned_text <- clean_text(text, TRUE, TRUE, TRUE)
 print(cleaned_text)
-#> [1] "hello there this shall be andys simple example"
-```
-
-``` r
 Information <- word_amount_ngrams(cleaned_text, 2)
 print(Information)
-#> $word_freq
-#> words
-#>   andys      be example   hello   shall  simple   there    this 
-#>       1       1       1       1       1       1       1       1 
-#> 
-#> $ngrams
-#> [1] "hello there"    "there this"     "this shall"     "shall be"      
-#> [5] "be andys"       "andys simple"   "simple example"
-```
-
-``` r
 count_shall <- check_word_frequency(Information, "shall")
 print(count_shall)
-#> [1] 1
 ```
+
