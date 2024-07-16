@@ -1,3 +1,5 @@
+#' Cleaning Text
+#'
 #' use this function to clean your String, by removing stopwords, changing it
 #' to all lower case or remove its punctuation
 #'

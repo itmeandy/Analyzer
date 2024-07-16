@@ -2,8 +2,7 @@
 % Please edit documentation in R/clean_text.R
 \name{clean_text}
 \alias{clean_text}
-\title{use this function to clean your String, by removing stopwords, changing it
-to all lower case or remove its punctuation}
+\title{Cleaning Text}
 \usage{
 clean_text(
   text,
