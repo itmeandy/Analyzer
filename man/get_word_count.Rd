@@ -22,5 +22,5 @@ output in Integer
 \examples{
 text <- "this day is a great day to talk about the next day"
 summary <- word_amount_ngrams(text, 1)
-get__word_count(summary, word = "day")
+get_word_count(summary, word = "day")
 }

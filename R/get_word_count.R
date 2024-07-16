@@ -10,7 +10,7 @@
 #' @examples
 #' text <- "this day is a great day to talk about the next day"
 #' summary <- word_amount_ngrams(text, 1)
-#' get__word_count(summary, word = "day")
+#' get_word_count(summary, word = "day")
 get_word_count <- function(summary, word) {
   count <- ifelse(word %in% names(summary$word_freq), summary$word_freq[[word]], 0)
   return(count)
