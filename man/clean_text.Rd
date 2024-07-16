@@ -2,7 +2,7 @@
 % Please edit documentation in R/clean_text.R
 \name{clean_text}
 \alias{clean_text}
-\title{Cleaning Text}
+\title{Clean some text for analysing}
 \usage{
 clean_text(
   text,

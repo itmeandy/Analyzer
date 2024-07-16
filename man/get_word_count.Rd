@@ -2,8 +2,7 @@
 % Please edit documentation in R/get_word_count.R
 \name{get_word_count}
 \alias{get_word_count}
-\title{use this function to get the count of a word of your word_amount_ngrams
-output in Integer}
+\title{Get a word count int value from word_amount_ngrams}
 \usage{
 get_word_count(summary, word)
 }

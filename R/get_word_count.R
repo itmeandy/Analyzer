@@ -1,3 +1,5 @@
+#' Get a word count int value from word_amount_ngrams
+#'
 #' use this function to get the count of a word of your word_amount_ngrams
 #' output in Integer
 #'

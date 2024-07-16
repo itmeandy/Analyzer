@@ -1,3 +1,5 @@
+#' Create a word count table and a ngrams list
+#'
 #' create a table of all used words and their count, aswell as give a vector
 #' of all the ngrams in the String where you define n (works best with clean
 #' text)
