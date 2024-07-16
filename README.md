@@ -45,7 +45,7 @@ print(Information)
 ```
 
 ``` r
-count_shall <- check_word_frequency(Information, "shall")
+count_shall <- get_word_count(Information, "shall")
 print(count_shall)
 #> [1] 1
 ```

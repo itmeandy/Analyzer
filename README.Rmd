@@ -41,7 +41,7 @@ cleaned_text <- clean_text(text, TRUE, TRUE, TRUE)
 print(cleaned_text)
 Information <- word_amount_ngrams(cleaned_text, 2)
 print(Information)
-count_shall <- check_word_frequency(Information, "shall")
+count_shall <- get_word_count(Information, "shall")
 print(count_shall)
 ```
 
